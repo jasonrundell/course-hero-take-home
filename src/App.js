@@ -4,7 +4,7 @@ import { FormCourseSearch } from './components/organisms'
 
 function App() {
   return (
-    <div>
+    <div className="page-layout">
       <section>
         <FormCourseSearch id="search" />
       </section>
