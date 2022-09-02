@@ -1,0 +1,42 @@
+.course-result-card {
+  display: block;
+  max-width: 18rem;
+  background: #fff;
+  margin: 1rem 0;
+  box-shadow: 0 0 6px #ccc;
+  border-radius: 0.25rem;
+}
+
+.course-result-title {
+  background-color: #001a95;
+  color: #fff;
+  font-weight: 700;
+  padding: 0.625rem;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  margin: 0;
+  width: 100%;
+  display: block;
+}
+
+.course-result-title:hover {
+  color: #fff;
+}
+
+.course-result-body {
+  background-color: #fff;
+  color: #444444;
+  font-weight: 400;
+  font-size: 0.875rem;
+  padding: 0.625rem;
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.course-result-label {
+  color: #7b7b7b;
+}
+
+.course-result-value {
+  color: #202020;
+}
