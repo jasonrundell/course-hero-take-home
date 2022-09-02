@@ -178,7 +178,7 @@ const FormCourseSearch = () => {
   }
 
   return (
-    <div>
+    <>
       <Label id="search-course">Course</Label>
       <div className="field has-addons">
         <div className="control">
@@ -209,8 +209,10 @@ const FormCourseSearch = () => {
           />
         </ul>
       )}
-    </div>
+    </>
   )
 }
+
+FormCourseSearch.propTypes = {}
 
 export default FormCourseSearch
