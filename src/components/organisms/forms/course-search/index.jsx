@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-// import PropTypes from 'prop-types'
 
 import { Label, Button, InputText } from '../../../atoms'
 import { CourseResult } from '../../../molecules'
@@ -179,7 +178,7 @@ const FormCourseSearch = () => {
   }
 
   return (
-    <>
+    <div>
       <Label id="search-course">Course</Label>
       <div className="field has-addons">
         <div className="control">
@@ -210,10 +209,8 @@ const FormCourseSearch = () => {
           />
         </ul>
       )}
-    </>
+    </div>
   )
 }
-
-FormCourseSearch.propTypes = {}
 
 export default FormCourseSearch
